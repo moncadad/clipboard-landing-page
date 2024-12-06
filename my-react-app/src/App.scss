@@ -14,6 +14,7 @@ $Light-Blue-5: hsla(233, 100%, 69%, .5);
 // ### Neutral
 $Dark-Grayish-Blue: hsl(210, 10%, 33%);
 $Grayish-Blue: hsl(201, 11%, 66%);
+$Grayish-Blue-2: hsla(201, 11%, 66%, .2);
 
 // ## Typography -------------------
 $Body-Font-Size: 18px;
@@ -39,7 +40,7 @@ body{
   background-position: top;
   background-color: #fff;
   min-height: 100vh;
-  margin-top: 50px;
+  margin-top: 3.25rem;
 }
 img{
   max-width: 100%;
@@ -53,7 +54,7 @@ img{
 }
 
 .section {
-  padding-block: 75px;
+  padding-block: 5rem;
 }
 a{
   text-decoration: none;
@@ -61,10 +62,10 @@ a{
 }
 
 h1{
-  font-size: 30px;
+  font-size: 2rem;
 }
 h2{
-  font-size: 26px;
+  font-size: 1.5rem;
 }
 h1, h2, h3{
   
@@ -83,21 +84,22 @@ p {
   }
   // active states
   &--ios:hover{
-    box-shadow:  -2px 3px 10px $Strong-Cyan-5;
+    box-shadow:  -4px 4px 16px $Strong-Cyan-5;
   }
   &--mac:hover{
-    box-shadow: -2px 3px 10px $Light-Blue-5;
+    box-shadow: -4px 4px 16px $Light-Blue-5;
   }
 }
 
 
 footer{
-  background-color: hsla(202, 11%, 66%, 0.518);
+  background-color: $Grayish-Blue-2;
   color: $Dark-Grayish-Blue;
   // active links
   a:hover{
     color: $Strong-Cyan;
   }
+  // active state
   a > img:hover {
     background-color: $Strong-Cyan;
   }

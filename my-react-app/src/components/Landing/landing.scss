@@ -1,29 +1,29 @@
 @import url("../../App.scss");
 .landing, .download-coa{
 .inner__wrapper{
-    max-width: 700px;
+    max-width: 44rem;
     margin: 0 auto;
     text-align: center;
     img{
-        margin-bottom: 70px;
+        margin-bottom: 4.5rem;
     }
     h1{
-        font-size: 30px;
+        font-size: 2rem;
         // padding-bottom: 24px;
     }
     p{
-        font-size: 18px;
-        padding: 24px 0;
+        font-size: 1.125rem;
+        padding: 1.5rem 0;
     }
     .buttons {
         display: flex;
         flex-direction: column;
         .btn{
-            padding: 20px;
-            border-radius: 30px;
+            padding: 1.25em;
+            border-radius: 2em;
             color: white;
             text-decoration: none;
-            margin-top: 24px; 
+            margin-top: 1.5em; 
         }
         
     }
@@ -34,16 +34,16 @@
 .landing, .download-coa{
     .inner__wrapper {
         h1{
-            font-size: 42px;
+            font-size: 2.5rem;
         }
         .buttons{
         display: block;
-        padding-block: 40px;
+        padding-block: 2.5rem;
         .btn{
-            padding: 20px 56px;
+            padding: 1.25em 3.5em;
         }
         .btn + .btn{
-            margin-left: 16px;
+            margin-left: 1rem;
         }
     }
 }
